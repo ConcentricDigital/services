@@ -1,0 +1,20 @@
+{
+  "code": "windows",
+  "name": "Windows-Environment",
+  "parent_id": -1,
+  "type": "env",
+  "id": 2,
+  "collection": [
+                  {
+                    "SYS_CONFIG_VER": "1.0.0",
+                    "SYS_ROOT":"//blue/arc01/GT-ROOT",
+                    "SYS_CONFIG_MNT":"${SYS_ROOT}",
+                    "SYS_RESRC_MNT":"${SYS_ROOT}",
+                    "SYS_APPS_MNT":"${SYS_ROOT}",
+                    "SYS_RENDERS_MNT":"${SYS_ROOT}",
+                    "SYS_PROJECTS_MNT":"${SYS_ROOT}",
+                    "SYS_DEV_MNT":"${SYS_ROOT}",
+                    "SYS_HOME_MNT":"${SYS_ROOT}/home"
+                  }
+                ]
+}

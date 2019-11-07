@@ -1,0 +1,38 @@
+{
+    "code": "default", 
+    "collection": [
+        {
+            "name": "syscfg", 
+            "root": "cfg", 
+            "type": "module", 
+            "version": "1.0.0"
+        }, 
+        {
+            "name": "deployer", 
+            "root": "prod", 
+            "type": "module", 
+            "version": "1.0.0"
+        }, 
+        {
+            "name": "wrappers", 
+            "platform": [
+                "win", 
+                "linux", 
+                "osx"
+            ], 
+            "root": "prod", 
+            "type": "tool", 
+            "version": "1.0.0"
+        }, 
+        {
+            "name": "devpkg", 
+            "root": "prod", 
+            "type": "module", 
+            "version": "5.9.0"
+        }
+    ], 
+    "id": 5, 
+    "name": "Default-Package-Config", 
+    "parent_id": -1, 
+    "type": "pkg"
+}

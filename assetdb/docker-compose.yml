@@ -1,0 +1,11 @@
+version: '2'
+services:   
+    postgresql:
+      restart: always
+      image: postgres:12.0-alpine
+      environment:
+        - POSTGRES_USER=system
+        - POSTGRES_PASSWORD=system
+        - POSTGRES_DB=production
+      volumes:
+        - ./data:/var/lib/postgresql:rw

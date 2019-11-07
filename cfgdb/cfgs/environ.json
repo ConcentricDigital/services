@@ -1,0 +1,39 @@
+{
+  "code": "default",
+  "name": "Default-Environment",
+  "parent_id": -1,
+  "type": "env",
+  "id": 1,
+  
+  "collection":[
+                  {
+      
+                     "SYS_CONFIG_VER": "1.0.0",
+                    
+                     "SYS_APPS_ROOT":"${SYS_APPS_MNT}/apps",
+                     "SYS_PACKAGE_ROOT":"${SYS_APPS_MNT}/packages",
+                     "SYS_BUILD_ROOT":"${SYS_APPS_MNT}/builds",
+                     
+                     "SYS_RESRC_ROOT":"${SYS_RESRC_MNT}/resrc",
+                     "SYS_RENDER_ROOT":"${SYS_RENDER_MNT}/renders",
+                     "SYS_PROJECT_ROOT":"${SYS_PROJECT_MNT}/projects",
+                     "SYS_CONFIG_ROOT":"${SYS_CONFIG_MNT}/config",
+                     "SYS_DEV_ROOT":"${SYS_DEV_MNT}/Dev",
+              
+                     "SYS_LOGS":"",
+                     "SYS_SUPPORT_EMAIL":"",
+                     "SYS_SMTP_PORT":"25",
+                     "SYS_SMTP_SERVER":"",
+                     
+                     "SYS_CONFIG_CLIENT":"${SYS_CONFIG_ROOT}/gtcfg",
+                     "SYS_CONFIG_SERVER":"${SYS_CONFIG_ROOT}/cfg-db",
+                     "SYS_REPO_SERVER":"scm-dev",
+                     "SYS_BUILDS_SERVER":"jenkins-dev",
+                     "SYS_USER":"cuser",
+                     "SYS_GIT_USER":"git",
+                     "SYS_PASSWD":"!cuser123",
+                     "SYS_SSH_KEY":"${SYS_RESRC_ROOT}/ssh/id_rsa.pub"
+                  }
+              ]
+}
+  

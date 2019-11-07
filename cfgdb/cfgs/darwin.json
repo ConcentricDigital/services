@@ -1,0 +1,14 @@
+{
+  "code": "osx",
+  "name": "OsX-Environment",
+  "parent_id": -1,
+  "type": "env",
+  "id": 4,
+  "collection": [
+                 {
+                    "version" : "1.0.0",
+                    "SYS_CONFIG_VER": "1.0.0",
+                    "SYS_PROD_MNT":"/prod"
+                }
+              ]
+}
